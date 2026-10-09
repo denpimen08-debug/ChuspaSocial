@@ -5,9 +5,10 @@
 ## Niveles de prueba
 
 ### Pruebas unitarias
-- Herramienta:
-- Cobertura mínima:
-- Responsable:
+- Herramienta: PHPUnit.
+- Cobertura mínima: 70 % del código ubicado en `classes/`, según el requisito RNF-012.
+- Ubicación de las pruebas: `src/test/`.
+- Responsable: El equipo de desarrollo realiza las pruebas unitarias y el responsable de revisión de código verifica sus resultados
 
 ### Pruebas de integración
 - Herramienta:
