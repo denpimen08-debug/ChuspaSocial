@@ -332,6 +332,32 @@
 - **Cuando** se guarda el comentario,
 - **Entonces** el sistema no envía ninguna notificación.
 
+### Reportes
+
+| ID | Descripción | Prioridad | Estado |
+|---|---|---|---|
+| RF-029 | Reportar una publicación, comentario o anuncio de libro | Alta | Pendiente |
+
+#### Criterios de aceptación
+
+### RF-029
+
+**Criterio 1**
+
+- **Dado** que un usuario visualiza una publicación, comentario o anuncio de libro,
+
+- **Cuando** selecciona la opción de reportar e indica un motivo,
+
+- **Entonces** el sistema registra el reporte asociado al contenido seleccionado y al motivo indicado.
+
+**Criterio 2**
+
+- **Dado** que un usuario desea reportar un contenido,
+
+- **Cuando** selecciona un motivo y confirma el reporte,
+
+- **Entonces** el sistema guarda el reporte y notifica que fue registrado correctamente.
+
 ## Requerimientos No Funcionales
 
 | ID | Descripción | Categoría | Estado |
