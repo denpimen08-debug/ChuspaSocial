@@ -7,7 +7,7 @@
 ### Pruebas unitarias
 - Herramienta: PHPUnit.
 - Cobertura mínima: 70 % del código ubicado en `classes/`, según el requisito RNF-012.
-- Ubicación de las pruebas: `src/test/`.
+- Ubicación de las pruebas: `src/tests/`.
 - Responsable: El equipo de desarrollo realiza las pruebas unitarias y el responsable de revisión de código verifica sus resultados
 
 ### Pruebas de integración
