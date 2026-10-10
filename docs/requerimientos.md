@@ -303,9 +303,22 @@
 
 | ID | Descripción | Prioridad | Estado |
 |---|---|---|---|
+| RF-028 | Notificar al usuario cuando obtiene un nuevo seguidor. | Baja | Pendiente |
 | RF-027 | Notificar un comentario en mi publicación | Media | Pendiente |
 
 #### Criterios de aceptación
+
+### RF-028
+
+**Criterio 1**
+- **Dado** que un usuario sigue a otro usuario,
+- **Cuando** se registra el nuevo seguimiento,
+- **Entonces** el usuario seguido recibe una notificación indicando que tiene un nuevo seguidor.
+
+**Criterio 2**
+- **Dado** que un usuario ha recibido un nuevo seguimiento,
+- **Cuando** consulta sus notificaciones,
+- **Entonces** puede visualizar la notificación con el nombre del usuario que comenzó a seguirlo.
 
 ### RF-027
 
