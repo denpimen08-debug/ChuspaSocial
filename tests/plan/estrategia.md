@@ -14,9 +14,13 @@
 - Alcance:
 - Responsable:
 
+
 ### Pruebas manuales
-- Frecuencia:
-- Responsable:
+- Frecuencia: Antes de cada release del sistema.
+- Responsable: Equipo encargado de las pruebas manuales.
+- Casos de prueba: Se utilizarán los casos funcionales disponibles en `tests/casos/funcionales/` para verificar el correcto funcionamiento del sistema.
+- Evidencias: Los resultados y las evidencias de las pruebas realizadas se almacenarán en `tests/manuales/evidencias/`.
+  
 
 ## Criterios de priorización de bugs
 
