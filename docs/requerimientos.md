@@ -915,6 +915,7 @@
 | RNF-012 | Las clases del plugin en `classes/` deben alcanzar al menos 70 % de cobertura de líneas con PHPUnit. Verificación: ejecutar PHPUnit con reporte de cobertura y comprobar que la cobertura de `classes/` sea igual o superior al 70 %. | Mantenibilidad | Pendiente |
 | RNF-011 | El código PHP del plugin debe cumplir el estándar de codificación de Moodle sin errores ni warnings de PHPCS. Verificación: ejecutar PHPCS con el estándar Moodle sobre el plugin y comprobar 0 errores y 0 warnings. | Mantenibilidad | Pendiente |
 | RNF-010 | La interfaz del plugin debe funcionar correctamente en las dos últimas versiones estables de Chrome, Firefox, Edge y Safari. Verificación: ejecutar los casos de prueba manuales de interfaz en las 8 combinaciones de navegador y versión y comprobar que todos finalicen sin fallos. | Compatibilidad | Pendiente |
+| RNF-013 | Las acciones importantes del sistema deben registrarse mediante la Events API, incluyendo al menos la identificación de la acción, el usuario y la fecha y hora. Verificación: revisar los eventos registrados mediante la Events API y comprobar que cada acción importante contiene estos datos. | Auditoría | Pendiente |
 
 
 ## Requerimientos de Sistema
